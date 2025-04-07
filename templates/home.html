@@ -1,26 +1,47 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="{% static "CSS/homeStyle.css" %}" rel="stylesheet">
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                {% comment %} <--<img src="{% static "IMG/logo.png" %}" alt="no Img"> --> {% endcomment %}
-                <span>MasterYourStudies</span>
-            </ul>
-            <ul>
-                <li class="navLinks">Home</li>
-                <li class="navLinks">About</li>
-                <li class="navLinks">Contacts</li>
-
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          {% comment %} <--<img src="{% static "IMG/logo.png" %}" alt="no Img">
+          --> {% endcomment %}
+          <span>MasterYourStudies</span>
+        </ul>
+        <ul>
+          <li class="navLinks">Home</li>
+          <li class="navLinks">About</li>
+          <li class="navLinks">Contacts</li>
+        </ul>
+      </nav>
     </header>
-</body>
+    <main>
+      <div id="entryPage">
+        <div id="MainText">
+          <h1>MasterYourStudies</h1>
+          <h2>
+            Master Your studies by getting premium tools for tracking get all
+            topics short notes, flash cards, get stress free by ai guidance with
+            best psycological Therapy and no bullying and private and safe get
+            motivation for reading, Know other subjects than academics.
+          </h2>
+          <div id="mainActionButton">
+            <button type="button" class="signUpBtn">Sign Up</button>
+            <a href="#" class="LearnMoreBtn">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="secondMainPage">
+        <h1>Premium Tools You'll Get</h1>
+      </div>
+    </main>
+  </body>
 </html>
